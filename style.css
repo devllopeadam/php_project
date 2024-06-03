@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.post-field {
+  box-shadow: rgb(22 22 28 / 72%) 0px 7px 29px 0px;
+}
+
+.singup {
+  @media (min-width: 768px) {
+    height: calc(100vh - 80px);
+  }
+}
